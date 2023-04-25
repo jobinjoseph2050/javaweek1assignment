@@ -1,19 +1,13 @@
 package gameAssignment;
-import java.util.Scanner;
 
-public class gameAssignmentMain {
+
+public class GameAssignmentMain {
 
 	public static void main(String[] args) {
 		
-		gameAssignment player = new gameAssignment();
-		
-					
+		GameAssignment player = new GameAssignment();			
 		int n = player.lengthCalculator("jobin");
-//		player.displayName(n, "jobin");
-		player.guessWork(n, "jobin");
-
-				
-//		input.close();		
+		player.guessTheName(n, "jobin");
 
 	}
 
